@@ -19,6 +19,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_tank.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_concrete_wall</object>
     <object>objects\obj_tank_military</object>
