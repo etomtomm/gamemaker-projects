@@ -3,22 +3,30 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_concrete_wall</sprite>
     <sprite>sprites\spr_tank_military</sprite>
-    <sprite>sprites\spr_tank_military_up</sprite>
-    <sprite>sprites\spr_tank_military_down</sprite>
-    <sprite>sprites\spr_tank_military_left</sprite>
     <sprite>sprites\spr_military_bullet</sprite>
+    <sprite>sprites\spr_tank_Cran</sprite>
+    <sprite>sprites\spr_beam_powerup</sprite>
+    <sprite>sprites\spr_Cran_bullet_</sprite>
+    <sprite>sprites\spr_fire_wall</sprite>
+    <sprite>sprites\spr_missile_powerup</sprite>
+    <sprite>sprites\spr_bush</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_concrete_wall</object>
     <object>objects\obj_tank_military</object>
+    <object>objects\obj_tank_Cran</object>
     <object>objects\obj_military_bullet</object>
+    <object>objects\obj_Cran_bullet</object>
+    <object>objects\obj_fire_wall</object>
+    <object>objects\obj_bush</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
