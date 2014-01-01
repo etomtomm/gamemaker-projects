@@ -36,6 +36,7 @@ left_key = ord('A');
 right_key = ord('D');
 shoot_key = vk_space;
 
+base_speed = 5;
 
 myBullet = obj_military_bullet;
 
@@ -190,7 +191,7 @@ damage += 20;
 
 draw_healthbar(x-16,y-24,x+16,y-20,100-damage,c_olive,c_red,c_green, 0,true,true);
 
-draw_self();
+draw_self ();
 </string>
           </argument>
         </arguments>

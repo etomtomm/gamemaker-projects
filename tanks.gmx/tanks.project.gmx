@@ -3,7 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="1" name="datafiles"/>
+  <datafiles number="2" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -14,13 +14,23 @@
     <sprite>sprites\spr_beam_powerup</sprite>
     <sprite>sprites\spr_Cran_bullet_</sprite>
     <sprite>sprites\spr_fire_wall</sprite>
-    <sprite>sprites\spr_missile_powerup</sprite>
+    <sprite>sprites\spr_missile</sprite>
     <sprite>sprites\spr_bush</sprite>
+    <sprite>sprites\spr_explosion</sprite>
+    <sprite>sprites\spr_big_explosion</sprite>
+    <sprite>sprites\spr_force_field</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\back_grass</background>
+    <background>background\back_space_port</background>
+    <background>background\back_sand_dunes</background>
+    <background>background\back_Cran_land</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_tank.gml</script>
+    <script>scripts\scr_explode.gml</script>
+    <script>scripts\scr_big_explode.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_concrete_wall</object>
@@ -30,9 +40,14 @@
     <object>objects\obj_Cran_bullet</object>
     <object>objects\obj_fire_wall</object>
     <object>objects\obj_bush</object>
+    <object>objects\controller</object>
+    <object>objects\obj_explosion</object>
+    <object>objects\obj_big_explosion</object>
+    <object>objects\obj_force_field</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\roo_space_port</room>
+    <room>rooms\roo_grass_land</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

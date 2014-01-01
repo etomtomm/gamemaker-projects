@@ -151,12 +151,9 @@
     <instance objName="obj_concrete_wall" x="608" y="-64" name="inst_8E8FA9B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_concrete_wall" x="672" y="-32" name="inst_32683E3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tank_Cran" x="608" y="448" name="inst_56573F75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="obj_bush" x="64" y="192" name="inst_9D2D2A5D" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="64" y="224" name="inst_E8E2C316" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bush" x="128" y="256" name="inst_CC6AA924" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="96" y="256" name="inst_6956CC31" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="96" y="224" name="inst_7DC49879" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bush" x="96" y="192" name="inst_1ECEC5DE" locked="0" code="" scaleX="1" scaleY="1.06666994094849" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="512" y="224" name="inst_5660B678" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="512" y="192" name="inst_19701F94" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="480" y="192" name="inst_C46828E2" locked="0" code="" scaleX="0" scaleY="1" colour="4294967295" rotation="0"/>
@@ -165,8 +162,6 @@
     <instance objName="obj_bush" x="480" y="256" name="inst_46DF8C9A" locked="0" code="" scaleX="0" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="512" y="256" name="inst_1DEBB001" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="64" y="256" name="inst_3D50756F" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bush" x="128" y="224" name="inst_6CE70EA7" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bush" x="128" y="192" name="inst_4B092C2C" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="544" y="192" name="inst_12C930C3" locked="0" code="" scaleX="0" scaleY="2.13333344459534" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="544" y="256" name="inst_F1AB992B" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="544" y="224" name="inst_8041768A" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
@@ -179,6 +174,11 @@
     <instance objName="obj_concrete_wall" x="256" y="288" name="inst_1D78ED4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_concrete_wall" x="224" y="288" name="inst_B84944FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_concrete_wall" x="192" y="288" name="inst_E6B26189" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bush" x="128" y="224" name="inst_043FBA09" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bush" x="128" y="256" name="inst_6C8F2CE7" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bush" x="128" y="192" name="inst_562CBD6E" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bush" x="96" y="192" name="inst_BFDF6950" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bush" x="64" y="192" name="inst_6DCB9C65" locked="0" code="" scaleX="1" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -8,42 +8,38 @@ shoot_pressed = keyboard_check(shoot_key);
 
 if ( up_pressed ) {
   direction = 90;
-  speed = 4;
 }
 
 if ( down_pressed ) {
   direction = 270;
-  speed = 4;
 }
 
 if ( right_pressed ) {
   direction = 0;
-  speed = 4;
 }
 
 if ( left_pressed ) {
   direction = 180;
-  speed = 4;
 }
 
 if ( left_pressed and up_pressed ) {
   direction = 135;
-  speed = 4;
 }
   
 if (down_pressed and right_pressed ) {
   direction = 315;
-  speed = 4;
 }
   
 if ( up_pressed and right_pressed ) {
   direction = 45;
-  speed = 4;
 }
   
 if ( left_pressed and down_pressed ) {
   direction = 225;
-  speed = 4;
+}
+
+if ( left_pressed or right_pressed or up_pressed or down_pressed ) {
+  speed = base_speed;
 }
 
 if ( shoot_pressed and reloaded ) {
@@ -56,3 +52,7 @@ if ( shoot_pressed and reloaded ) {
 }
   
 image_angle = direction;
+
+if (damage >= 100){
+  scr_big_explode();
+}
