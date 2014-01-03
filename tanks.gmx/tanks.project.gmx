@@ -19,6 +19,8 @@
     <sprite>sprites\spr_explosion</sprite>
     <sprite>sprites\spr_big_explosion</sprite>
     <sprite>sprites\spr_force_field</sprite>
+    <sprite>sprites\spr_laser_beam</sprite>
+    <sprite>sprites\spr_missile_powerup</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_grass</background>
@@ -44,6 +46,7 @@
     <object>objects\obj_explosion</object>
     <object>objects\obj_big_explosion</object>
     <object>objects\obj_force_field</object>
+    <object>objects\obj_missile_powerup</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roo_space_port</room>
