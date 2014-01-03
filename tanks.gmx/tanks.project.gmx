@@ -5,7 +5,9 @@
   </Configs>
   <datafiles number="2" name="datafiles"/>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sou_space_port_music_enders_game</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_concrete_wall</sprite>
     <sprite>sprites\spr_tank_military</sprite>
@@ -21,6 +23,7 @@
     <sprite>sprites\spr_force_field</sprite>
     <sprite>sprites\spr_laser_beam</sprite>
     <sprite>sprites\spr_missile_powerup</sprite>
+    <sprite>sprites\spr_powerup_spawn</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_grass</background>
@@ -33,6 +36,7 @@
     <script>scripts\scr_tank.gml</script>
     <script>scripts\scr_explode.gml</script>
     <script>scripts\scr_big_explode.gml</script>
+    <script>scripts\scr_powerup_spawn.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_concrete_wall</object>
@@ -47,6 +51,8 @@
     <object>objects\obj_big_explosion</object>
     <object>objects\obj_force_field</object>
     <object>objects\obj_missile_powerup</object>
+    <object>objects\obj_space_port_music_Enders_Game</object>
+    <object>objects\obj_powerup_spawn</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roo_space_port</room>

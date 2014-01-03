@@ -181,6 +181,11 @@
     <instance objName="obj_tank_military" x="608" y="448" name="inst_9C6832A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tank_Cran" x="32" y="32" name="inst_099EA50B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_force_field" x="416" y="224" name="inst_28192D34" locked="0" code="" scaleX="0.510204076766968" scaleY="0.510204076766968" colour="4294967295" rotation="0"/>
+    <instance objName="obj_space_port_music_Enders_Game" x="576" y="32" name="inst_10BD511E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_powerup_spawn" x="128" y="192" name="inst_F571A90F" locked="0" code="" scaleX="0.489361703395844" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_powerup_spawn" x="128" y="320" name="inst_4F950FF6" locked="0" code="" scaleX="0.489361703395844" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_powerup_spawn" x="512" y="320" name="inst_8C3B9438" locked="0" code="" scaleX="0.489361703395844" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_powerup_spawn" x="512" y="192" name="inst_F714047B" locked="0" code="" scaleX="0.489361703395844" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
